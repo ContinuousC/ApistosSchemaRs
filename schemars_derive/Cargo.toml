@@ -8,7 +8,7 @@ license = "MIT"
 readme = "README.md"
 keywords = ["rust", "json-schema", "serde"]
 rust-version = "1.60"
-publish = ["si"]
+publish = false
 
 [lib]
 proc-macro = true

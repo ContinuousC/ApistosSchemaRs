@@ -4,6 +4,3 @@ members = [
     "schemars_derive"
 ]
 resolver = "2"
-
-[patch.crates-io]
-schemars_derive = { registry = "si", version = "0.8.21" }

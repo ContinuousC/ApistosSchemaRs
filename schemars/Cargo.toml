@@ -10,10 +10,10 @@ keywords = ["rust", "json-schema", "serde"]
 categories = ["encoding"]
 build = "build.rs"
 rust-version = "1.60"
-publish = ["si"]
+publish = false
 
 [dependencies]
-schemars_derive = { registry = "si", version = "=0.8.21", optional = true, path = "../schemars_derive" }
+schemars_derive = { version = "=0.8.21", optional = true, path = "../schemars_derive" }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0.25"
 dyn-clone = "1.0"
